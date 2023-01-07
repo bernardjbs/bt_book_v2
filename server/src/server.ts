@@ -45,9 +45,8 @@ app.use(
 );
 
 db.once('open', () => {
-  app.listen(4000, () => {
-    console.log(`API server running on port 4000!`);
-    console.log(`Use GraphQL at http://localhost:4000/graphql`);
+  app.listen(PORT, () => {
+    console.log(`API server running on port ${PORT}!`);
+    console.log(`Use GraphQL at http://localhost:${PORT}/graphql`);
   });
 });
-
