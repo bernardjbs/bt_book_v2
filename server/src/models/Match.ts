@@ -28,4 +28,4 @@ const matchSchema = new Schema<Match>({
 
 const Match = model('match', matchSchema);
 
-export default Match;
+export {Match};
