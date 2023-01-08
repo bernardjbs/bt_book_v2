@@ -2,7 +2,7 @@ import playwright from 'playwright';
 import { delay } from '../utils/helpers.js';
 import Colors from 'colors.ts';
 import { setFavMatches } from '../scrape/setFavMatches.js';
-import { matchExists } from '../scrape/scrapeController.js';
+import { matchExists } from '../controllers/matchController.js';
 
 Colors.enable();
 
